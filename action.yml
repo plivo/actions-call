@@ -1,0 +1,34 @@
+name: 'Plivo Call'
+author: 'Plivo'
+description: 'Make a call from GitHub Actions using Plivo'
+inputs:
+  fromPhoneNumber:
+    description: 'The Phone number in your Plivo account will be used caller id, which is stored as secret and can also be hardcoded.'
+    required: true
+  toPhoneNumber:
+    description: 'The phone number to which SMS must be sent is stored as a secret and can also be hardcoded.'
+    required: true
+  message:
+    description: 'The text you want to be spoken on the other end.'
+    required: true
+  language:
+    description: 'The language in which the message must be relayed, such as "en-US."'
+    required: true
+  voice:
+    description: 'Either a MAN or a WOMAN voice will be used to deliver the message.'
+    required: true
+  PLIVO_AUTH_ID:
+    description: 'A Plivo Auth_ID. To be stored in secret or as an environment variable.'
+    required: true
+  PLIVO_AUTH_TOKEN:
+    description: 'A Plivo Auth_Token. To be stored in secret or as an environment variable.'
+    required: true
+outputs:
+  MessageResponse:
+    description: 'Plivo returns a JSON response acknowledging the message.'
+runs:
+  using: 'node12'
+  main: 'dist/main.js'
+branding:
+  color: 'green'
+  icon: 'phone-call'
