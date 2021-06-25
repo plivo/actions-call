@@ -1,4 +1,4 @@
-# Plivo Call GitHub Action
+# Plivo Call - GitHub Actions
 
 This action can be applied to your workflow and will enable you to make a call in any scenario you wish.
 
