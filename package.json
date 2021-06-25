@@ -1,0 +1,32 @@
+{
+  "name": "@plivo/actions-call",
+  "version": "1.0.0",
+  "description": "Make a call through GitHub Actions",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plivo/actions-call.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "plivo",
+    "call"
+  ],
+  "author": "Mohammed Huzaif <huzaif@plivo.com> (https://plivo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plivo/actions-call/issues"
+  },
+  "homepage": "https://github.com/plivo/actions-call#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.0",
+    "plivo": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
