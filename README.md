@@ -5,7 +5,7 @@ This action can be applied to your workflow and will enable you to make a call i
 ## Prerequisites
 
 - A Plivo Account. [Sign up for free](https://console.plivo.com/accounts/register/)
-- A [Plivo Auth_ID and Auth_Token](https://console.plivo.com/dashboard/)
+- A Plivo [Auth_ID and Auth_Token](https://console.plivo.com/dashboard/)
 
 ## Usage
 
