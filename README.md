@@ -43,7 +43,7 @@ This action can be applied to your workflow and will enable you to make a call i
 
 ### `language`
 
-**Required** Language used to read out the text.; for example, if we want the audio to be delivered in English, the value would be "en-US". Supported voices and languages can be found [here](https://www.plivo.com/docs/voice/xml/speak/).
+**Required** Language used to read out the text, for example, if we want the audio to be delivered in English, the value would be "en-US". Supported voices and languages can be found [here](https://www.plivo.com/docs/voice/xml/speak/).
 
 ### `voice`
 

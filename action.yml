@@ -12,10 +12,10 @@ inputs:
     description: 'The text you want to be spoken on the other end.'
     required: true
   language:
-    description: 'The language in which the message must be relayed, such as "en-US."'
+    description: 'Language used to read out the text, for example, if we want the audio to be delivered in English, the value would be "en-US".'
     required: true
   voice:
-    description: 'Either a MAN or a WOMAN voice will be used to deliver the message.'
+    description: 'Either a MAN or a WOMAN voice will be used to read out the message.'
     required: true
   PLIVO_AUTH_ID:
     description: 'A Plivo Auth_ID. To be stored in secret or as an environment variable.'
